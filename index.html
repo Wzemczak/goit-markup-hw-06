@@ -543,6 +543,27 @@
             </svg>
           </div>
         </div>
+        <form class="newsletter">
+          <label>
+            <p class="newsletter-text">Zapisz się do newslettera</p>
+            <input
+              class="newsletter-input"
+              type="text"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+          <button class="newsletter-btn" type="submit">
+            Zapisz się
+            <svg width="24px" height="24px" class="icon-send">
+              <use
+                width="24px"
+                height="24px"
+                href="./images/icons.svg#icon-icon-send"
+              ></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -552,6 +573,67 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="form">
+          <div
+            class="form-group"
+            role="group"
+            aria-labelledby="contact-details-head"
+          >
+            <p class="contact-details-head">
+              Zostaw swoje dane w formularzu poniżej
+            </p>
+            <label class="form-design">
+              <p class="form-headers">Imie</p>
+
+              <input class="form-input" type="text" name="username" />
+            </label>
+            <label class="form-design">
+              <p class="form-headers">Email</p>
+              <input class="form-input" type="email" name="email" />
+            </label>
+            <label class="form-design">
+              <p class="form-headers">Telefon</p>
+              <input class="form-input" type="tel" name="phone_number" />
+            </label>
+            <label class="form-design">
+              <p class="form-headers">Komentarz</p>
+              <textarea
+                class="form-comment"
+                name="feedback"
+                rows="6"
+                placeholder="Wprowadz tekst"
+              ></textarea>
+            </label>
+            <label>
+              <input class="check" type="checkbox" name="cons&terms" />
+              Oświadczam iż akceptuję
+              <a class="form-link" href=""> Regulamin</a> i
+              <a class="form-link" href=""> Politykę Prywatności</a>.
+            </label>
+            <button class="window-btn" type="submit">Wyślij</button>
+            <svg class="form-icon">
+              <use
+                width="18px"
+                height="18px"
+                href="./images/icons.svg#icon-person-black-18dp-1"
+              ></use>
+            </svg>
+            <svg class="form-icon1">
+              <use
+                width="18px"
+                height="18px"
+                href="./images/icons.svg#icon-email-black-18dp-1"
+              ></use>
+            </svg>
+            <svg class="form-icon2">
+              <use
+                width="18px"
+                height="18px"
+                href="./images/icons.svg#icon-phone-black-18dp-1"
+              ></use>
+            </svg>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
